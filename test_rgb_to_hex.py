@@ -9,4 +9,9 @@ class testRGBtoHEX (unittest.TestCase):
     def test_rgb_to_hex_02(self):
         value = converter()
         result = "86f584"
-        self.assertEqual(result, value.rgb_to_hex((134, 245, 132)))    
+        self.assertEqual(result, value.rgb_to_hex((134, 245, 132))) 
+
+    def test_rgb_to_hex_03(self):
+        value = converter()
+        result = "d5ffff"
+        self.assertEqual(result, value.rgb_to_hex((213, 255, 255)))    
