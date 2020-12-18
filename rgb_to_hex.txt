@@ -1,0 +1,14 @@
+Lista de Requerimientos – Tendencias en Desarrollo de Aplicaciones
+Kata: Convertir RGB a HEX
+Estudiante: Victor Valdez – 1086515
+
+1.	El sistema deberá permitir al usuario ingresar un código de color RGB, que deberá convertir automáticamente a HEX.
+
+Criterios de aceptación:
+a)	Los números del código RGB deben ser enteros
+b)	El valor HEX convertido debe ser retornado por una función dentro de una clase
+Escenarios de prueba: 
+I)	rgb_to_hex(111, 111, 111) -> “6f6f6f” 
+II)	rgb_to_hex(222, 111, 222) -> de6fde” 
+III)	rgb_to_hex(122, 111, 122) -> “7a6f7a” 
+
